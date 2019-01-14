@@ -31,7 +31,7 @@
 /* .text:hover{
 	color: #fff;
 } */
-.right{
+.head-con .right{
 	width: 250px;
 	height: 40px;
 	float: right;
@@ -61,8 +61,8 @@
 	line-height: 40px;
 	background: #424242;
 }
-.car:hover{
-	color: #fff;
+.head-con .car:hover{
+	color: #ff6700;
 	}
 .mid{
 	width: 1226px;
@@ -113,12 +113,12 @@
 	font-size: 12px;
 	color: #757575;
 	float: right;
-    line-height: 18px;	
+  line-height: 18px;	
 	margin-left: 4px;
 	margin-top: 16px;
 	background: #eee;
 }
-.text2:hover{
+.head2 .sousuo .text2:hover{
 	color: #fff;
 	background: #FF6700;
 }
@@ -133,6 +133,7 @@
 }
 .sou:hover{
 	background: #ff6700;
+	color: #fff;
 }
 
 /* banner开始 */
@@ -635,6 +636,10 @@ ul,li{
 	box-shadow: none;
 }
 .ad>ul>li>img{
+	width: 315.66px;
+	height: 170px;
+}
+.ad>ul>li>a>img{
 	width: 315.66px;
 	height: 170px;
 }
